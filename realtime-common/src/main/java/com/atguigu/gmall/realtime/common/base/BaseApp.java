@@ -14,7 +14,7 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
  * FlinkAPI应用程序的基类
  * 模板方法设计模式：在父类中定义完成某一个功能的核心算法骨架(步骤)，有些步骤在父类中没有办法实现，需要延迟到子类中去完成
  *          好处：约定了模板
- *               在不改变父类核心算法骨架的前提下，每个子类都可以有自己不同的实现
+ *               在不改变父类核心算法骨架的前下，每个子类都可以有自己不同的实
  */
 public abstract class BaseApp {
     public void start(int port, int parallelism, String ckAndGroupId, String topic) throws Exception {
